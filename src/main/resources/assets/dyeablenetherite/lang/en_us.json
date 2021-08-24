@@ -1,0 +1,60 @@
+{
+
+  "item.dyeablenetherite.netherite_hoe": "§cNetherite Hoe",
+  "item.dyeablenetherite.netherite_pickaxe": "§cNetherite Pickaxe",
+  "item.dyeablenetherite.netherite_axe": "§cNetherite Axe",
+  "item.dyeablenetherite.netherite_sword": "§cNetherite Sword",
+  "item.dyeablenetherite.netherite_shovel": "§cNetherite Shovel",
+  "item.dyeablenetherite.netherite_helmet": "§cNetherite Helmet",
+  "item.dyeablenetherite.netherite_chestplate": "§cNetherite Chestplate",
+  "item.dyeablenetherite.netherite_leggings": "§cNetherite Leggings",
+  "item.dyeablenetherite.netherite_boots": "§cNetherite Boots",
+
+
+  "item.dyeablenetherite.blue_netherite_hoe": "§3Blue Hoe",
+  "item.dyeablenetherite.blue_netherite_pickaxe": "§3Blue Pickaxe",
+  "item.dyeablenetherite.blue_netherite_axe": "§3Blue Axe",
+  "item.dyeablenetherite.blue_netherite_sword": "§3Blue Sword",
+  "item.dyeablenetherite.blue_netherite_shovel": "§3Blue Shovel",
+  "item.dyeablenetherite.blue_netherite_helmet": "§3Blue Helmet",
+  "item.dyeablenetherite.blue_netherite_chestplate": "§3Blue Chestplate",
+  "item.dyeablenetherite.blue_netherite_leggings": "§3Blue Leggings",
+  "item.dyeablenetherite.blue_netherite_boots": "§3Blue Boots",
+
+
+  "item.dyeablenetherite.green_netherite_hoe": "§aNetherite Hoe",
+  "item.dyeablenetherite.green_netherite_pickaxe": "§aNetherite Pickaxe",
+  "item.dyeablenetherite.green_netherite_axe": "§aNetherite Axe",
+  "item.dyeablenetherite.green_netherite_sword": "§aNetherite Sword",
+  "item.dyeablenetherite.green_netherite_shovel": "§aNetherite Shovel",
+  "item.dyeablenetherite.green_netherite_helmet": "§aNetherite Helmet",
+  "item.dyeablenetherite.green_netherite_chestplate": "§aNetherite Chestplate",
+  "item.dyeablenetherite.green_netherite_leggings": "§aNetherite Leggings",
+  "item.dyeablenetherite.green_netherite_boots": "§aNetherite Boots",
+
+
+  "item.dyeablenetherite.purple_netherite_hoe": "§dNetherite Hoe",
+  "item.dyeablenetherite.purple_netherite_pickaxe": "§dNetherite Pickaxe",
+  "item.dyeablenetherite.purple_netherite_axe": "§dNetherite Axe",
+  "item.dyeablenetherite.purple_netherite_sword": "§dNetherite Sword",
+  "item.dyeablenetherite.purple_netherite_shovel": "§dNetherite Shovel",
+  "item.dyeablenetherite.purple_netherite_helmet": "§dNetherite Helmet",
+  "item.dyeablenetherite.purple_netherite_chestplate": "§dNetherite Chestplate",
+  "item.dyeablenetherite.purple_netherite_leggings": "§dNetherite Leggings",
+  "item.dyeablenetherite.purple_netherite_boots": "§dNetherite Boots",
+
+
+  "item.dyeablenetherite.white_netherite_hoe": "Netherite Hoe",
+  "item.dyeablenetherite.white_netherite_pickaxe": "Netherite Pickaxe",
+  "item.dyeablenetherite.white_netherite_axe": "Netherite Axe",
+  "item.dyeablenetherite.white_netherite_sword": "Netherite Sword",
+  "item.dyeablenetherite.white_netherite_shovel": "Netherite Shovel",
+  "item.dyeablenetherite.white_netherite_helmet": "Netherite Helmet",
+  "item.dyeablenetherite.white_netherite_chestplate": "Netherite Chestplate",
+  "item.dyeablenetherite.white_netherite_leggings": "Netherite Leggings",
+  "item.dyeablenetherite.white_netherite_boots": "Netherite Boots",
+
+
+  "itemGroup.minecraft.netheritetools": "Dyeable Netherite Tools",
+  "itemGroup.minecraft.netheritearmor": "Dyeable Netherite Armour"
+}
