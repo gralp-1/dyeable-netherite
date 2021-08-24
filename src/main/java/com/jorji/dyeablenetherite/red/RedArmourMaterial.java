@@ -8,7 +8,7 @@ import net.minecraft.sound.SoundEvent;
 import net.minecraft.sound.SoundEvents;
 
 public class RedArmourMaterial implements ArmorMaterial {
-    private static final int[] BASE_DURABILITY = new int[]{333, 592, 555, 481};
+    private static final int[] BASE_DURABILITY = new int[]{481, 555, 592, 407};
     private static final int[] PROTECTION_VALUES = new int[]{3, 6, 8, 3};
     // In which A is helmet, B chestplate, C leggings and D boots.
 

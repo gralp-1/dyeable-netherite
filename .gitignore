@@ -4,7 +4,6 @@
 build/
 out/
 classes/
-run/logs
 run/screenshots
 # eclipse
 
@@ -28,3 +27,8 @@ bin/
 # macos
 
 *.DS_Store
+
+# logs
+
+*.log
+*.log.gz
