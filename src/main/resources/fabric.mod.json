@@ -1,16 +1,14 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "dyeablenetherite",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Dyeable Netherite",
   "authors": [
-    "Me!"
+    "gralp, iTechyn, sma"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/gralp-1/dyeable-netherite"
   },
 
   "license": "CC0-1.0",
@@ -19,13 +17,9 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "com.jorji.dyeablenetherite.main"
     ]
   },
-  "mixins": [
-    "modid.mixins.json"
-  ],
-
   "depends": {
     "fabricloader": ">=0.11.3",
     "fabric": "*",
