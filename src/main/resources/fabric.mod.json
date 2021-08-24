@@ -20,6 +20,9 @@
       "com.jorji.dyeablenetherite.main"
     ]
   },
+  "mixins": [
+    "dyeablenetherite.mixins.json"
+  ],
   "depends": {
     "fabricloader": ">=0.11.3",
     "fabric": "*",

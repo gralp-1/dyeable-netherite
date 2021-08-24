@@ -8,9 +8,10 @@ import net.minecraft.sound.SoundEvent;
 import net.minecraft.sound.SoundEvents;
 
 public class RedArmourMaterial implements ArmorMaterial {
-    private static final int[] BASE_DURABILITY = new int[]{407, 592, 555, 481};
+    private static final int[] BASE_DURABILITY = new int[]{333, 592, 555, 481};
     private static final int[] PROTECTION_VALUES = new int[]{3, 6, 8, 3};
     // In which A is helmet, B chestplate, C leggings and D boots.
+
 
     @Override
     public int getDurability(EquipmentSlot slot) {
@@ -39,16 +40,16 @@ public class RedArmourMaterial implements ArmorMaterial {
 
     @Override
     public String getName() {
-        return "name";
+        return "red_netherite";
     }
 
     @Override
     public float getToughness() {
-        return 12.0F;
+        return 3.0F;
     }
 
     @Override
     public float getKnockbackResistance() {
-        return 15.0F;
+        return 0.1F;
     }
 }
