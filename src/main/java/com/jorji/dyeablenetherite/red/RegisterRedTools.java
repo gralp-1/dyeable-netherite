@@ -13,14 +13,13 @@ import net.minecraft.util.registry.Registry;
 
 public class RegisterRedTools {
 
-    public static final Item.Settings settings = new Item.Settings().fireproof().group(ItemGroup.TOOLS);
 
 
-    public static final ToolItem RED_NETHERITE_PICKAXE = new PickaxeType(UniversalToolMaterial.INSTANCE, 5, -2.8F, settings);
-    public static final ToolItem RED_NETHERITE_AXE = new AxeType(UniversalToolMaterial.INSTANCE, 9, -3F, settings);
-    public static final ToolItem RED_NETHERITE_SHOVEL = new ShovelType(UniversalToolMaterial.INSTANCE, 5.5F, -3F, settings);
-    public static final ToolItem RED_NETHERITE_SWORD = new SwordType(UniversalToolMaterial.INSTANCE, 7, -2.4F, settings);
-    public static final ToolItem RED_NETHERITE_HOE = new SwordType(UniversalToolMaterial.INSTANCE, 0, 0F, settings);
+    public static final ToolItem RED_NETHERITE_PICKAXE = new PickaxeType(UniversalToolMaterial.INSTANCE, 5, -2.8F, UniversalToolMaterial.UNIVERSAL_SETTINGS);
+    public static final ToolItem RED_NETHERITE_AXE = new AxeType(UniversalToolMaterial.INSTANCE, 9, -3F, UniversalToolMaterial.UNIVERSAL_SETTINGS);
+    public static final ToolItem RED_NETHERITE_SHOVEL = new ShovelType(UniversalToolMaterial.INSTANCE, 5.5F, -3F, UniversalToolMaterial.UNIVERSAL_SETTINGS);
+    public static final ToolItem RED_NETHERITE_SWORD = new SwordType(UniversalToolMaterial.INSTANCE, 7, -2.4F, UniversalToolMaterial.UNIVERSAL_SETTINGS);
+    public static final ToolItem RED_NETHERITE_HOE = new SwordType(UniversalToolMaterial.INSTANCE, 0, 0F, UniversalToolMaterial.UNIVERSAL_SETTINGS);
 
 
     public static void register(){
