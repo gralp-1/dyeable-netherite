@@ -2,7 +2,7 @@ package com.jorji.dyeablenetherite.mixin;
 
 import com.google.common.collect.ImmutableMultimap;
 import com.google.common.collect.Multimap;
-import com.jorji.dyeablenetherite.red.RegisterRedArmour;
+import com.jorji.dyeablenetherite.red.RedArmourMaterial;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.entity.attribute.EntityAttribute;
 import net.minecraft.entity.attribute.EntityAttributeModifier;
@@ -32,7 +32,7 @@ public abstract class ArmorItemMixin {
     private void constructor(ArmorMaterial material, EquipmentSlot slot, Item.Settings settings, CallbackInfo ci) {
         UUID uUID = MODIFIERS[slot.getEntitySlotId()];
 
-        if (material == RegisterRedArmour.RED_NETHERITE_MATERIAL) {
+        if (material == RedArmourMaterial.INSTANCE) {
             ImmutableMultimap.Builder<EntityAttribute, EntityAttributeModifier> builder = ImmutableMultimap.builder();
 
             this.attributeModifiers.forEach(builder::put);
