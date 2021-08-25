@@ -23,13 +23,14 @@ public class DyeableNetherite implements ModInitializer {
             .icon(() -> new ItemStack(RegisterBlueTools.BLUE_NETHERITE_SWORD))
             .build();
 
-
+    public static final Settings UNIVERSAL_TOOL_SETTINGS = new Settings().fireproof().group(DyeableNetherite.TOOL_GROUP);
     public static final Settings UNIVERSAL_ARMOUR_SETTINGS = new Settings().fireproof().group(ARMOUR_GROUP);
 
 
     @Override
     public void onInitialize() {
-
+        // This whole mod really needs more greg
+        // TODO: Add more greg
 
         // Register tools
         RegisterRedTools.register();
