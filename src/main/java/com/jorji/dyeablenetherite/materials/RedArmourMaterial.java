@@ -8,10 +8,10 @@ import net.minecraft.sound.SoundEvent;
 import net.minecraft.sound.SoundEvents;
 
 public class RedArmourMaterial implements ArmorMaterial {
+    public static final RedArmourMaterial INSTANCE = new RedArmourMaterial();
     private static final int[] BASE_DURABILITY = new int[]{481, 555, 592, 407};
-    private static final int[] PROTECTION_VALUES = new int[]{3, 6, 8, 3};
     // In which A is helmet, B chestplate, C leggings and D boots.
-
+    private static final int[] PROTECTION_VALUES = new int[]{3, 6, 8, 3};
 
     @Override
     public int getDurability(EquipmentSlot slot) {
@@ -52,6 +52,4 @@ public class RedArmourMaterial implements ArmorMaterial {
     public float getKnockbackResistance() {
         return 0.1F;
     }
-
-    public static final RedArmourMaterial INSTANCE = new RedArmourMaterial();
 }

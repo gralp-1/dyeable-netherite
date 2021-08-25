@@ -2,9 +2,7 @@ package com.jorji.dyeablenetherite.mixin;
 
 import com.google.common.collect.ImmutableMultimap;
 import com.google.common.collect.Multimap;
-import com.jorji.dyeablenetherite.materials.BlueArmourMaterial;
-import com.jorji.dyeablenetherite.materials.GreenArmourMaterial;
-import com.jorji.dyeablenetherite.materials.RedArmourMaterial;
+import com.jorji.dyeablenetherite.materials.*;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.entity.attribute.EntityAttribute;
 import net.minecraft.entity.attribute.EntityAttributeModifier;
@@ -25,19 +23,27 @@ import java.util.UUID;
 @Mixin(ArmorItem.class)
 public abstract class ArmorItemMixin {
 
-    @Shadow @Final private static UUID[] MODIFIERS;
-    @Shadow @Final @Mutable private Multimap<EntityAttribute, EntityAttributeModifier> attributeModifiers;
-    @Shadow @Final protected float knockbackResistance;
-    private Object RegisterItems;
+    @Shadow
+    @Final
+    private static UUID[] MODIFIERS;
+    @Shadow
+    @Final
+    protected float knockbackResistance;
+    @Shadow
+    @Final
+    @Mutable
+    private Multimap<EntityAttribute, EntityAttributeModifier> attributeModifiers;
 
-
-
-    // I don't know what this is
+    // I don't know what this is but it gives me kb resistance
     @Inject(method = "<init>", at = @At(value = "RETURN"))
     private void constructor(ArmorMaterial material, EquipmentSlot slot, Item.Settings settings, CallbackInfo ci) {
         UUID uUID = MODIFIERS[slot.getEntitySlotId()];
 
-        if (material == RedArmourMaterial.INSTANCE || material == BlueArmourMaterial.INSTANCE || material == GreenArmourMaterial.INSTANCE) {
+        if (material == RedArmourMaterial.INSTANCE ||
+                material == BlueArmourMaterial.INSTANCE ||
+                material == GreenArmourMaterial.INSTANCE ||
+                material == PurpleArmourMaterial.INSTANCE ||
+                material == WhiteArmourMaterial.INSTANCE) {
             ImmutableMultimap.Builder<EntityAttribute, EntityAttributeModifier> builder = ImmutableMultimap.builder();
 
             this.attributeModifiers.forEach(builder::put);
@@ -54,5 +60,4 @@ public abstract class ArmorItemMixin {
             this.attributeModifiers = builder.build();
         }
     }
-
 }

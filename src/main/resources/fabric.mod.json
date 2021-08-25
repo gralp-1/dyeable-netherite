@@ -12,7 +12,7 @@
   },
 
   "license": "CC0-1.0",
-  "icon": "icon.png",
+  "icon": "assets/dyeablenetherite/icon.png",
 
   "environment": "*",
   "entrypoints": {

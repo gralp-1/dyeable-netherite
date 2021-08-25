@@ -5,14 +5,11 @@ import com.jorji.dyeablenetherite.ToolTypes.PickaxeType;
 import com.jorji.dyeablenetherite.ToolTypes.ShovelType;
 import com.jorji.dyeablenetherite.ToolTypes.SwordType;
 import com.jorji.dyeablenetherite.UniversalToolMaterial;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ToolItem;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 public class RegisterGreenTools {
-
 
 
     public static final ToolItem GREEN_NETHERITE_PICKAXE = new PickaxeType(UniversalToolMaterial.INSTANCE, 5, -2.8F, UniversalToolMaterial.UNIVERSAL_SETTINGS);
@@ -22,7 +19,7 @@ public class RegisterGreenTools {
     public static final ToolItem GREEN_NETHERITE_HOE = new SwordType(UniversalToolMaterial.INSTANCE, 0, 0F, UniversalToolMaterial.UNIVERSAL_SETTINGS);
 
 
-    public static void register(){
+    public static void register() {
         Registry.register(Registry.ITEM, new Identifier("dyeablenetherite", "green_netherite_axe"), GREEN_NETHERITE_AXE);
         Registry.register(Registry.ITEM, new Identifier("dyeablenetherite", "green_netherite_pickaxe"), GREEN_NETHERITE_PICKAXE);
         Registry.register(Registry.ITEM, new Identifier("dyeablenetherite", "green_netherite_shovel"), GREEN_NETHERITE_SHOVEL);

@@ -1,18 +1,15 @@
 package com.jorji.dyeablenetherite.tools;
 
-import com.jorji.dyeablenetherite.*;
 import com.jorji.dyeablenetherite.ToolTypes.AxeType;
 import com.jorji.dyeablenetherite.ToolTypes.PickaxeType;
 import com.jorji.dyeablenetherite.ToolTypes.ShovelType;
 import com.jorji.dyeablenetherite.ToolTypes.SwordType;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
+import com.jorji.dyeablenetherite.UniversalToolMaterial;
 import net.minecraft.item.ToolItem;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 public class RegisterRedTools {
-
 
 
     public static final ToolItem RED_NETHERITE_PICKAXE = new PickaxeType(UniversalToolMaterial.INSTANCE, 5, -2.8F, UniversalToolMaterial.UNIVERSAL_SETTINGS);
@@ -22,7 +19,7 @@ public class RegisterRedTools {
     public static final ToolItem RED_NETHERITE_HOE = new SwordType(UniversalToolMaterial.INSTANCE, 0, 0F, UniversalToolMaterial.UNIVERSAL_SETTINGS);
 
 
-    public static void register(){
+    public static void register() {
         Registry.register(Registry.ITEM, new Identifier("dyeablenetherite", "netherite_axe"), RED_NETHERITE_AXE);
         Registry.register(Registry.ITEM, new Identifier("dyeablenetherite", "netherite_pickaxe"), RED_NETHERITE_PICKAXE);
         Registry.register(Registry.ITEM, new Identifier("dyeablenetherite", "netherite_shovel"), RED_NETHERITE_SHOVEL);

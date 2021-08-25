@@ -9,7 +9,7 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 public class RegisterGreenArmour {
-    
+
     public static final Item GREEN_NETHERITE_HELMET = new ArmorItem(GreenArmourMaterial.INSTANCE, EquipmentSlot.HEAD, new Item.Settings().group(ItemGroup.COMBAT).fireproof());
     public static final Item GREEN_NETHERITE_CHESTPLATE = new ArmorItem(GreenArmourMaterial.INSTANCE, EquipmentSlot.CHEST, new Item.Settings().group(ItemGroup.COMBAT).fireproof());
     public static final Item GREEN_NETHERITE_LEGGINGS = new ArmorItem(GreenArmourMaterial.INSTANCE, EquipmentSlot.LEGS, new Item.Settings().group(ItemGroup.COMBAT).fireproof());

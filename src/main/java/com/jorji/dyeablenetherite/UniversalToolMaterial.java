@@ -8,6 +8,9 @@ import net.minecraft.recipe.Ingredient;
 
 public class UniversalToolMaterial implements ToolMaterial {
 
+    public static final UniversalToolMaterial INSTANCE = new UniversalToolMaterial();
+    public static final Item.Settings UNIVERSAL_SETTINGS = new Item.Settings().fireproof().group(ItemGroup.TOOLS);
+
     @Override
     public int getDurability() {
         return 2032;
@@ -37,8 +40,4 @@ public class UniversalToolMaterial implements ToolMaterial {
     public Ingredient getRepairIngredient() {
         return Ingredient.ofItems(Items.NETHERITE_INGOT);
     }
-
-    public static final UniversalToolMaterial INSTANCE = new UniversalToolMaterial();
-
-    public static final Item.Settings UNIVERSAL_SETTINGS = new Item.Settings().fireproof().group(ItemGroup.TOOLS);
 }
