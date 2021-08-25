@@ -1,4 +1,4 @@
-package com.jorji.dyeablenetherite.ToolTypes;
+package com.jorji.dyeablenetherite.tooltypes;
 
 import net.minecraft.item.PickaxeItem;
 import net.minecraft.item.ToolMaterial;

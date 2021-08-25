@@ -11,15 +11,15 @@
   "item.dyeablenetherite.netherite_boots": "§cNetherite Boots",
 
 
-  "item.dyeablenetherite.blue_netherite_hoe": "§3Blue Hoe",
-  "item.dyeablenetherite.blue_netherite_pickaxe": "§3Blue Pickaxe",
-  "item.dyeablenetherite.blue_netherite_axe": "§3Blue Axe",
-  "item.dyeablenetherite.blue_netherite_sword": "§3Blue Sword",
-  "item.dyeablenetherite.blue_netherite_shovel": "§3Blue Shovel",
-  "item.dyeablenetherite.blue_netherite_helmet": "§3Blue Helmet",
-  "item.dyeablenetherite.blue_netherite_chestplate": "§3Blue Chestplate",
-  "item.dyeablenetherite.blue_netherite_leggings": "§3Blue Leggings",
-  "item.dyeablenetherite.blue_netherite_boots": "§3Blue Boots",
+  "item.dyeablenetherite.blue_netherite_hoe": "§3Netherite Hoe",
+  "item.dyeablenetherite.blue_netherite_pickaxe": "§3Netherite Pickaxe",
+  "item.dyeablenetherite.blue_netherite_axe": "§3Netherite Axe",
+  "item.dyeablenetherite.blue_netherite_sword": "§3Netherite Sword",
+  "item.dyeablenetherite.blue_netherite_shovel": "§3Netherite Shovel",
+  "item.dyeablenetherite.blue_netherite_helmet": "§3Netherite Helmet",
+  "item.dyeablenetherite.blue_netherite_chestplate": "§3Netherite Chestplate",
+  "item.dyeablenetherite.blue_netherite_leggings": "§3Netherite Leggings",
+  "item.dyeablenetherite.blue_netherite_boots": "§3Netherite Boots",
 
 
   "item.dyeablenetherite.green_netherite_hoe": "§aNetherite Hoe",
@@ -55,6 +55,6 @@
   "item.dyeablenetherite.white_netherite_boots": "Netherite Boots",
 
 
-  "itemGroup.minecraft.netheritetools": "Dyeable Netherite Tools",
-  "itemGroup.minecraft.netheritearmor": "Dyeable Netherite Armour"
+  "itemGroup.dyeablenetherite.netheritetools": "Dyeable Netherite Tools",
+  "itemGroup.dyeablenetherite.netheritearmor": "Dyeable Netherite Armour"
 }

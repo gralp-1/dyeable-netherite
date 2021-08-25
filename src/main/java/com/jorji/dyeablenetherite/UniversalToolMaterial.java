@@ -9,7 +9,7 @@ import net.minecraft.recipe.Ingredient;
 public class UniversalToolMaterial implements ToolMaterial {
 
     public static final UniversalToolMaterial INSTANCE = new UniversalToolMaterial();
-    public static final Item.Settings UNIVERSAL_SETTINGS = new Item.Settings().fireproof().group(ItemGroup.TOOLS);
+    public static final Item.Settings UNIVERSAL_TOOL_SETTINGS = new Item.Settings().fireproof().group(DyeableNetherite.TOOL_GROUP);
 
     @Override
     public int getDurability() {
