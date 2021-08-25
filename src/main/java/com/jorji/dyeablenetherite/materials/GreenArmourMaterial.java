@@ -1,4 +1,4 @@
-package com.jorji.dyeablenetherite.green;
+package com.jorji.dyeablenetherite.materials;
 
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.ArmorMaterial;

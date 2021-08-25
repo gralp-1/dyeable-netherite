@@ -1,4 +1,4 @@
-package com.jorji.dyeablenetherite.blue;
+package com.jorji.dyeablenetherite.tools;
 
 import com.jorji.dyeablenetherite.ToolTypes.AxeType;
 import com.jorji.dyeablenetherite.ToolTypes.PickaxeType;

@@ -25,7 +25,7 @@ Caused by: java.lang.RuntimeException: Attempted to register ID ResourceKey[mine
 	at net.minecraft.util.registry.DefaultedRegistry.set(DefaultedRegistry.java:28)
 	at net.minecraft.util.registry.SimpleRegistry.add(SimpleRegistry.java:103)
 	at net.minecraft.util.registry.Registry.register(Registry.java:430)
-	at com.jorji.dyeablenetherite.blue.RegisterBlueArmour.register(RegisterBlueArmour.java:19)
+	at com.jorji.dyeablenetherite.armour.RegisterBlueArmour.register(RegisterBlueArmour.java:19)
 	at com.jorji.dyeablenetherite.DyeableNetherite.onInitialize(DyeableNetherite.java:14)
 	at net.fabricmc.loader.entrypoint.minecraft.hooks.EntrypointUtils.invoke0(EntrypointUtils.java:47)
 	... 12 more

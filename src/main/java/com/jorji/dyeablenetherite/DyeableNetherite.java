@@ -1,11 +1,12 @@
 package com.jorji.dyeablenetherite;
 
-import com.jorji.dyeablenetherite.blue.RegisterBlueTools;
-import com.jorji.dyeablenetherite.green.RegisterGreenArmour;
-import com.jorji.dyeablenetherite.green.RegisterGreenTools;
-import com.jorji.dyeablenetherite.red.RegisterRedArmour;
-import com.jorji.dyeablenetherite.blue.RegisterBlueArmour;
-import com.jorji.dyeablenetherite.red.RegisterRedTools;
+import com.jorji.dyeablenetherite.tools.RegisterBlueTools;
+import com.jorji.dyeablenetherite.tools.RegisterGreenTools;
+import com.jorji.dyeablenetherite.tools.RegisterRedTools;
+
+import com.jorji.dyeablenetherite.armour.RegisterGreenArmour;
+import com.jorji.dyeablenetherite.armour.RegisterRedArmour;
+import com.jorji.dyeablenetherite.armour.RegisterBlueArmour;
 import net.fabricmc.api.ModInitializer;
 
 public class DyeableNetherite implements ModInitializer {

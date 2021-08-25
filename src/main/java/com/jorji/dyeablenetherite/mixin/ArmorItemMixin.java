@@ -2,9 +2,9 @@ package com.jorji.dyeablenetherite.mixin;
 
 import com.google.common.collect.ImmutableMultimap;
 import com.google.common.collect.Multimap;
-import com.jorji.dyeablenetherite.blue.BlueArmourMaterial;
-import com.jorji.dyeablenetherite.green.GreenArmourMaterial;
-import com.jorji.dyeablenetherite.red.RedArmourMaterial;
+import com.jorji.dyeablenetherite.materials.BlueArmourMaterial;
+import com.jorji.dyeablenetherite.materials.GreenArmourMaterial;
+import com.jorji.dyeablenetherite.materials.RedArmourMaterial;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.entity.attribute.EntityAttribute;
 import net.minecraft.entity.attribute.EntityAttributeModifier;
@@ -30,6 +30,9 @@ public abstract class ArmorItemMixin {
     @Shadow @Final protected float knockbackResistance;
     private Object RegisterItems;
 
+
+
+    // I don't know what this is
     @Inject(method = "<init>", at = @At(value = "RETURN"))
     private void constructor(ArmorMaterial material, EquipmentSlot slot, Item.Settings settings, CallbackInfo ci) {
         UUID uUID = MODIFIERS[slot.getEntitySlotId()];
