@@ -1,10 +1,9 @@
-package com.jorji.dyeablenetherite;
+package com.srworks.dyeablenetherite;
 
-import com.jorji.dyeablenetherite.armour.*;
-import com.jorji.dyeablenetherite.tools.*;
+import com.srworks.dyeablenetherite.armour.*;
+import com.srworks.dyeablenetherite.tools.*;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
-import net.minecraft.item.ArmorMaterial;
 import net.minecraft.item.Item.Settings;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;

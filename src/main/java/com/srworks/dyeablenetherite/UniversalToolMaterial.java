@@ -1,7 +1,5 @@
-package com.jorji.dyeablenetherite;
+package com.srworks.dyeablenetherite;
 
-import net.minecraft.item.Item.Settings;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;

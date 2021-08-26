@@ -1,13 +1,13 @@
-package com.jorji.dyeablenetherite.armour;
+package com.srworks.dyeablenetherite.armour;
 
-import com.jorji.dyeablenetherite.materials.GreenArmourMaterial;
+import com.srworks.dyeablenetherite.materials.GreenArmourMaterial;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.Item;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
-import static com.jorji.dyeablenetherite.DyeableNetherite.UNIVERSAL_ARMOUR_SETTINGS;
+import static com.srworks.dyeablenetherite.DyeableNetherite.UNIVERSAL_ARMOUR_SETTINGS;
 
 public class RegisterGreenArmour {
 

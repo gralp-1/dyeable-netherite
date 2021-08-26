@@ -1,4 +1,4 @@
-package com.jorji.dyeablenetherite.tooltypes;
+package com.srworks.dyeablenetherite.tooltypes;
 
 import net.minecraft.item.AxeItem;
 import net.minecraft.item.ToolMaterial;
