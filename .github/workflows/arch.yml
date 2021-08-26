@@ -1,0 +1,2 @@
+- name: Minecraft Architectury Tests
+  uses: ValkyrienSkies/Minecraft-Architectury-Testing@v1.7
