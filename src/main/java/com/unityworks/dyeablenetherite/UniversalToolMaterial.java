@@ -1,4 +1,4 @@
-package com.srworks.dyeablenetherite;
+package com.unityworks.dyeablenetherite;
 
 import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;

@@ -1,4 +1,4 @@
-package com.srworks.dyeablenetherite.materials;
+package com.unityworks.dyeablenetherite.materials;
 
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.ArmorMaterial;
@@ -7,8 +7,8 @@ import net.minecraft.recipe.Ingredient;
 import net.minecraft.sound.SoundEvent;
 import net.minecraft.sound.SoundEvents;
 
-public class GreenArmourMaterial implements ArmorMaterial {
-    public static final GreenArmourMaterial INSTANCE = new GreenArmourMaterial();
+public class WhiteArmourMaterial implements ArmorMaterial {
+    public static final WhiteArmourMaterial INSTANCE = new WhiteArmourMaterial();
     private static final int[] BASE_DURABILITY = new int[]{481, 555, 592, 407};
     // In which A is helmet, B chestplate, C leggings and D boots.
     private static final int[] PROTECTION_VALUES = new int[]{3, 6, 8, 3};
@@ -40,7 +40,7 @@ public class GreenArmourMaterial implements ArmorMaterial {
 
     @Override
     public String getName() {
-        return "green_netherite";
+        return "white_netherite";
     }
 
     @Override

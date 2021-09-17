@@ -1,10 +1,11 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "com.srworks.dyeablenetherite.mixin",
+  "package": "com.unityworks.dyeablenetherite.mixin",
   "compatibilityLevel": "JAVA_16",
   "mixins": [
-    "ArmorItemMixin"
+    "ArmorItemMixin",
+    "PiglinMixin"
   ],
   "injectors": {
     "defaultRequire": 1

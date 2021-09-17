@@ -1,7 +1,7 @@
-package com.srworks.dyeablenetherite;
+package com.unityworks.dyeablenetherite;
 
-import com.srworks.dyeablenetherite.armour.*;
-import com.srworks.dyeablenetherite.tools.*;
+import com.unityworks.dyeablenetherite.armour.*;
+import com.unityworks.dyeablenetherite.tools.*;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.minecraft.item.Item.Settings;

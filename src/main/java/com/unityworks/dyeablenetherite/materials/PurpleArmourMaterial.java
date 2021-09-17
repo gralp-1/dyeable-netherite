@@ -1,4 +1,4 @@
-package com.srworks.dyeablenetherite.materials;
+package com.unityworks.dyeablenetherite.materials;
 
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.ArmorMaterial;
