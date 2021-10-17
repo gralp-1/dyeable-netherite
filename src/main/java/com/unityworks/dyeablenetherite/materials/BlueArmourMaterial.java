@@ -9,8 +9,8 @@ import net.minecraft.sound.SoundEvents;
 
 public class BlueArmourMaterial implements ArmorMaterial {
     public static final BlueArmourMaterial INSTANCE = new BlueArmourMaterial();
-    private static final int[] BASE_DURABILITY = new int[]{481, 555, 592, 407};
-    private static final int[] PROTECTION_VALUES = new int[]{3, 6, 8, 3};
+    private static final int[] BASE_DURABILITY = {481, 555, 592, 407};
+    private static final int[] PROTECTION_VALUES = {3, 6, 8, 3};
 
     @Override
     public int getDurability(EquipmentSlot slot) {
