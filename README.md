@@ -1,4 +1,4 @@
-<img src="https://img.shields.io/github/workflow/status/iTechyn/DyeableNetheriteMkIII/build"></img> 
+<img src="https://img.shields.io/github/workflow/status/gralp-1/dyeable-netherite/build"></img> 
 
 # DyeableNetheriteMkIII
 The 3rd rehash of dyeable netherite. This time we might fix bugs.
