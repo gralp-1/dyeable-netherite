@@ -8,19 +8,18 @@ import net.minecraft.sound.SoundEvent;
 import net.minecraft.sound.SoundEvents;
 
 public class RedArmourMaterial implements ArmorMaterial {
-    public static final RedArmourMaterial INSTANCE = new RedArmourMaterial();
-    private static final int[] BASE_DURABILITY = {481, 555, 592, 407};
-    // In which A is helmet, B chestplate, C leggings and D boots.
-    private static final int[] PROTECTION_VALUES = {3, 6, 8, 3};
-
+    // In order Feet, Leggings, Chestplate, Helmet
+    private static final int[] durabilities = {481, 555, 592, 407};
+    private static final int[] prots = {3, 6, 8, 3};
+    
     @Override
     public int getDurability(EquipmentSlot slot) {
-        return BASE_DURABILITY[slot.getEntitySlotId()];
+        return durabilities[slot.getEntitySlotId()];
     }
 
     @Override
     public int getProtectionAmount(EquipmentSlot slot) {
-        return PROTECTION_VALUES[slot.getEntitySlotId()];
+        return prots[slot.getEntitySlotId()];
     }
 
     @Override
@@ -40,16 +39,18 @@ public class RedArmourMaterial implements ArmorMaterial {
 
     @Override
     public String getName() {
-        return "red_netherite";
+        return "red_netherite_material";
     }
 
     @Override
     public float getToughness() {
-        return 3.0F;
+        return 3;
     }
 
     @Override
     public float getKnockbackResistance() {
-        return 0.1F;
+        return 1;
     }
+    
+    public static RedArmourMaterial INSTANCE = new RedArmourMaterial();}
 }
