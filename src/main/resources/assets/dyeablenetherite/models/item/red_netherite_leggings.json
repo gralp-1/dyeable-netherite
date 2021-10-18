@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "dyeablenetherite:items/netherite_leggings"
+    "layer0": "dyeablenetherite:items/red_netherite_leggings"
   }
 }
