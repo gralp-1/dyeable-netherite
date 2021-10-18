@@ -1,7 +1,7 @@
-package com.unityworks.dyeablenetherite;
+package com.srmworks.dyeablenetherite;
 
-import com.unityworks.dyeablenetherite.armour.*;
-import com.unityworks.dyeablenetherite.tools.*;
+import com.srmworks.dyeablenetherite.armour.*;
+import com.srmworks.dyeablenetherite.tools.*;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.minecraft.item.Item.Settings;
@@ -23,7 +23,8 @@ public class DyeableNetherite implements ModInitializer {
             .build();
 
     public static final Settings UNIVERSAL_TOOL_SETTINGS = new Settings().fireproof().group(DyeableNetherite.TOOL_GROUP);
-    public static final Settings UNIVERSAL_ARMOUR_SETTINGS = new Settings().fireproof().group(ARMOUR_GROUP);
+    // not working
+    //public static final Settings UNIVERSAL_ARMOUR_SETTINGS = new Settings().fireproof().group(ARMOUR_GROUP);
 
 
     @Override
@@ -32,18 +33,18 @@ public class DyeableNetherite implements ModInitializer {
         // TODO: Add more greg
 
         // Register tools
-        RegisterRedTools.register();
-        RegisterBlueTools.register();
-        RegisterGreenTools.register();
-        RegisterWhiteTools.register();
-        RegisterPurpleTools.register();
+//        RegisterRedTools.register();
+//        RegisterBlueTools.register();
+//        RegisterGreenTools.register();
+//        RegisterWhiteTools.register();
+//        RegisterPurpleTools.register();
 
 
         // Register armour
         RegisterRedArmour.register();
-        RegisterBlueArmour.register();
-        RegisterGreenArmour.register();
-        RegisterWhiteArmour.register();
-        RegisterPurpleArmour.register();
+//        RegisterBlueArmour.register();
+//        RegisterGreenArmour.register();
+//        RegisterWhiteArmour.register();
+//        RegisterPurpleArmour.register();
     }
 }

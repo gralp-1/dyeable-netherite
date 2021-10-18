@@ -1,8 +1,8 @@
-package com.unityworks.dyeablenetherite.tools;
+package com.srmworks.dyeablenetherite.tools;
 
-import com.unityworks.dyeablenetherite.UniversalToolMaterial;
-import com.unityworks.dyeablenetherite.DyeableNetherite;
-import com.unityworks.dyeablenetherite.tooltypes.*;
+import com.srmworks.dyeablenetherite.tooltypes.*;
+import com.srmworks.dyeablenetherite.UniversalToolMaterial;
+import com.srmworks.dyeablenetherite.DyeableNetherite;
 import net.minecraft.item.ToolItem;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;

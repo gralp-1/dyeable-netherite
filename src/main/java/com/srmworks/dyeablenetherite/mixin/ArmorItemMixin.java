@@ -1,8 +1,8 @@
-package com.unityworks.dyeablenetherite.mixin;
+package com.srmworks.dyeablenetherite.mixin;
 
 import com.google.common.collect.ImmutableMultimap;
 import com.google.common.collect.Multimap;
-import com.unityworks.dyeablenetherite.materials.*;
+import com.srmworks.dyeablenetherite.materials.*;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.entity.attribute.EntityAttribute;
 import net.minecraft.entity.attribute.EntityAttributeModifier;

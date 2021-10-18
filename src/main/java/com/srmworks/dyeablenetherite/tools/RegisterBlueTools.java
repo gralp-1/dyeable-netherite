@@ -1,12 +1,12 @@
-package com.unityworks.dyeablenetherite.tools;
+package com.srmworks.dyeablenetherite.tools;
 
-import com.unityworks.dyeablenetherite.UniversalToolMaterial;
-import com.unityworks.dyeablenetherite.tooltypes.*;
+import com.srmworks.dyeablenetherite.tooltypes.*;
+import com.srmworks.dyeablenetherite.UniversalToolMaterial;
 import net.minecraft.item.ToolItem;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
-import static com.unityworks.dyeablenetherite.DyeableNetherite.UNIVERSAL_TOOL_SETTINGS;
+import static com.srmworks.dyeablenetherite.DyeableNetherite.UNIVERSAL_TOOL_SETTINGS;
 
 public class RegisterBlueTools {
 

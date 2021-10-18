@@ -1,4 +1,4 @@
-package com.unityworks.dyeablenetherite.tooltypes;
+package com.srmworks.dyeablenetherite.tooltypes;
 
 import net.minecraft.item.SwordItem;
 import net.minecraft.item.ToolMaterial;

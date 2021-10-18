@@ -17,7 +17,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.unityworks.dyeablenetherite.DyeableNetherite"
+      "com.srmworks.dyeablenetherite.DyeableNetherite"
     ]
   },
   "mixins": [
