@@ -33,18 +33,18 @@ public class DyeableNetherite implements ModInitializer {
         // TODO: Add more greg
 
         // Register tools
-//        RegisterRedTools.register();
-//        RegisterBlueTools.register();
-//        RegisterGreenTools.register();
-//        RegisterWhiteTools.register();
-//        RegisterPurpleTools.register();
+        RegisterRedTools.register();
+        RegisterBlueTools.register();
+        RegisterGreenTools.register();
+        RegisterWhiteTools.register();
+        RegisterPurpleTools.register();
 
 
         // Register armour
         RegisterRedArmour.register();
-//        RegisterBlueArmour.register();
-//        RegisterGreenArmour.register();
-//        RegisterWhiteArmour.register();
-//        RegisterPurpleArmour.register();
+        RegisterBlueArmour.register();
+        RegisterGreenArmour.register();
+        RegisterWhiteArmour.register();
+        RegisterPurpleArmour.register();
     }
 }
