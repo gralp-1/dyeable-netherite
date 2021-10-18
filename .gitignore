@@ -4,10 +4,6 @@
 build/
 out/
 classes/
-run/
-# eclipse
-
-*.launch
 
 # idea
 
@@ -16,19 +12,10 @@ run/
 *.ipr
 *.iws
 
-# vscode
-
-.settings/
-.vscode/
-bin/
-.classpath
-.project
-
 # macos
 
 *.DS_Store
 
-# logs
+# fabric
 
-*.log
-*.log.gz
+run/
