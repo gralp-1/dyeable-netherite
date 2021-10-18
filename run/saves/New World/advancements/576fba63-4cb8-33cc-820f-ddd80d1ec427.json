@@ -1,0 +1,15 @@
+{
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2021-10-18 18:50:57 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:desert": "2021-10-18 18:50:57 +0100"
+    },
+    "done": false
+  },
+  "DataVersion": 2730
+}

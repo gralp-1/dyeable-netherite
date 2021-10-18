@@ -1,1 +1,5 @@
+<<<<<<< Updated upstream
 Mixin Implementation Report generated on 2021-10-18 18:49:19
+=======
+Mixin Implementation Report generated on 2021-10-18 18:50:04
+>>>>>>> Stashed changes

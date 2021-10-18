@@ -9,6 +9,7 @@ import net.minecraft.sound.SoundEvents;
 
 public class RedArmourMaterial implements ArmorMaterial {
     public static final RedArmourMaterial INSTANCE = new RedArmourMaterial();
+    // For some ungodly reason all the durability arrays need an extra dummy entry. Took me 2 months to fix that.
     private static final int[] BASE_DURABILITY = {481, 555, 592, 407, 0};
     // In which A is helmet, B chestplate, C leggings and D boots.
     private static final int[] PROTECTION_VALUES = {3, 6, 8, 3};

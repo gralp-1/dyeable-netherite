@@ -18,10 +18,10 @@ public class RegisterRedTools {
 
 
     public static void register() {
-        Registry.register(Registry.ITEM, new Identifier("dyeablenetherite", "netherite_axe"), RED_NETHERITE_AXE);
-        Registry.register(Registry.ITEM, new Identifier("dyeablenetherite", "netherite_pickaxe"), RED_NETHERITE_PICKAXE);
-        Registry.register(Registry.ITEM, new Identifier("dyeablenetherite", "netherite_shovel"), RED_NETHERITE_SHOVEL);
-        Registry.register(Registry.ITEM, new Identifier("dyeablenetherite", "netherite_sword"), RED_NETHERITE_SWORD);
-        Registry.register(Registry.ITEM, new Identifier("dyeablenetherite", "netherite_hoe"), RED_NETHERITE_HOE);
+        Registry.register(Registry.ITEM, new Identifier("dyeablenetherite", "red_netherite_axe"), RED_NETHERITE_AXE);
+        Registry.register(Registry.ITEM, new Identifier("dyeablenetherite", "red_netherite_pickaxe"), RED_NETHERITE_PICKAXE);
+        Registry.register(Registry.ITEM, new Identifier("dyeablenetherite", "red_netherite_shovel"), RED_NETHERITE_SHOVEL);
+        Registry.register(Registry.ITEM, new Identifier("dyeablenetherite", "red_netherite_sword"), RED_NETHERITE_SWORD);
+        Registry.register(Registry.ITEM, new Identifier("dyeablenetherite", "red_netherite_hoe"), RED_NETHERITE_HOE);
     }
 }
