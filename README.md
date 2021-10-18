@@ -1,5 +1,7 @@
-<img src="https://img.shields.io/github/workflow/status/gralp-1/dyeable-netherite/build"></img> 
+<img src="https://camo.githubusercontent.com/62b93b84eca0ec05e3686c2e84affabcb193a86216a8f86a1965f0aa3406277a/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f776f726b666c6f772f7374617475732f6772616c702d312f64796561626c652d6e65746865726974652f6275696c64"></img> 
 
+# DyeableNetheriteMkIII
+The 3rd rehash of dyeable netherite. This time we might fix bugs.
 
 ## Dyeable Netherite:
 

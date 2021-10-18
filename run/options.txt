@@ -34,7 +34,7 @@ graphicsMode:1
 ao:0
 biomeBlendRadius:2
 renderClouds:true
-resourcePacks:["vanilla","Fabric Mods","file/Default-Dark-Mode-1.17-(v1.3.0)"]
+resourcePacks:[]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
