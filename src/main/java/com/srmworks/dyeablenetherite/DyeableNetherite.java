@@ -4,6 +4,7 @@ import com.srmworks.dyeablenetherite.armour.*;
 import com.srmworks.dyeablenetherite.tools.*;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
+import net.minecraft.client.util.ModelIdentifier;
 import net.minecraft.item.Item.Settings;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -11,7 +12,7 @@ import net.minecraft.util.Identifier;
 
 
 public class DyeableNetherite implements ModInitializer {
-
+    public static final String MODID = "dyeablenetherite";
 
     public static final ItemGroup ARMOUR_GROUP = FabricItemGroupBuilder.create(
             new Identifier("dyeablenetherite", "netheritearmor"))
@@ -46,5 +47,8 @@ public class DyeableNetherite implements ModInitializer {
         RegisterWhiteArmour.register();
         RegisterPurpleArmour.register();
         RegisterYellowArmour.register();
+    }
+    public static Identifier id(String name){
+        return new Identifier(MODID, name);
     }
 }

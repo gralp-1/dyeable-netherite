@@ -9,6 +9,7 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 import static com.srmworks.dyeablenetherite.DyeableNetherite.ARMOUR_GROUP;
+import static com.srmworks.dyeablenetherite.DyeableNetherite.id;
 
 public class RegisterBlueArmour {
 
@@ -18,9 +19,9 @@ public class RegisterBlueArmour {
     public static final Item BLUE_NETHERITE_BOOTS = new ArmorItem(BlueArmourMaterial.INSTANCE, EquipmentSlot.FEET, new Item.Settings().fireproof().group(ARMOUR_GROUP));
 
     public static void register() {
-        Registry.register(Registry.ITEM, new Identifier("dyeablenetherite", "blue_netherite_helmet"), BLUE_NETHERITE_HELMET);
-        Registry.register(Registry.ITEM, new Identifier("dyeablenetherite", "blue_netherite_chestplate"), BLUE_NETHERITE_CHESTPLATE);
-        Registry.register(Registry.ITEM, new Identifier("dyeablenetherite", "blue_netherite_leggings"), BLUE_NETHERITE_LEGGINGS);
-        Registry.register(Registry.ITEM, new Identifier("dyeablenetherite", "blue_netherite_boots"), BLUE_NETHERITE_BOOTS);
+        Registry.register(Registry.ITEM, id("blue_netherite_helmet"), BLUE_NETHERITE_HELMET);
+        Registry.register(Registry.ITEM, id("blue_netherite_chestplate"), BLUE_NETHERITE_CHESTPLATE);
+        Registry.register(Registry.ITEM, id("blue_netherite_leggings"), BLUE_NETHERITE_LEGGINGS);
+        Registry.register(Registry.ITEM, id("blue_netherite_boots"), BLUE_NETHERITE_BOOTS);
     }
 }
