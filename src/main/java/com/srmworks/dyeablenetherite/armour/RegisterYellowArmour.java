@@ -3,7 +3,6 @@ package com.srmworks.dyeablenetherite.armour;
 import com.srmworks.dyeablenetherite.materials.YellowArmourMaterial;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.ArmorItem;
-import net.minecraft.item.ArmorMaterial;
 import net.minecraft.item.Item;
 import net.minecraft.util.registry.Registry;
 
@@ -18,9 +17,16 @@ public class RegisterYellowArmour {
     public static final Item YELLOW_NETHERITE_BOOTS = new ArmorItem(YellowArmourMaterial.INSTANCE, EquipmentSlot.FEET, new Item.Settings().fireproof().group(ARMOUR_GROUP));
 
     public static void register() {
+<<<<<<< HEAD
         Registry.register(Registry.ITEM, id("yellow_netherite_helmet"), YELLOW_NETHERITE_HELMET);
         Registry.register(Registry.ITEM, id("yellow_netherite_chestplate"), YELLOW_NETHERITE_CHESTPLATE);
         Registry.register(Registry.ITEM, id("yellow_netherite_leggings"), YELLOW_NETHERITE_LEGGINGS);
         Registry.register(Registry.ITEM, id("yellow_netherite_boots"), YELLOW_NETHERITE_BOOTS);
+=======
+        Registry.register(Registry.ITEM, new Identifier("dyeablenetherite", "yellow_netherite_helmet"), YELLOW_NETHERITE_HELMET);
+        Registry.register(Registry.ITEM, new Identifier("dyeablenetherite", "yellow_netherite_chestplate"), YELLOW_NETHERITE_CHESTPLATE);
+        Registry.register(Registry.ITEM, new Identifier("dyeablenetherite", "yellow_netherite_leggings"), YELLOW_NETHERITE_LEGGINGS);
+        Registry.register(Registry.ITEM, new Identifier("dyeablenetherite", "yellow_netherite_boots"), YELLOW_NETHERITE_BOOTS);
+>>>>>>> 2e092c114b1009993fe556c594fde402dad16975
     }
 }

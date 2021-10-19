@@ -55,6 +55,16 @@
   "item.dyeablenetherite.white_netherite_boots": "Netherieten Laarzen",
 
 
+  "item.dyeablenetherite.yellow_netherite_hoe": "§eNetherieten Schoffel",
+  "item.dyeablenetherite.yellow_netherite_pickaxe": "§eNetherieten Houweel",
+  "item.dyeablenetherite.yellow_netherite_axe": "§eNetherieten Bijl",
+  "item.dyeablenetherite.yellow_netherite_sword": "§eNetherieten Zwaard",
+  "item.dyeablenetherite.yellow_netherite_shovel": "§eNetherieten Schep",
+  "item.dyeablenetherite.yellow_netherite_helmet": "§eNetherieten Helm",
+  "item.dyeablenetherite.yellow_netherite_chestplate": "§eNetherieten Borstplaat",
+  "item.dyeablenetherite.yellow_netherite_leggings": "§eNetherieten Beenstukken",
+  "item.dyeablenetherite.yellow_netherite_boots": "§eNetherieten Laarzen",
+
   "itemGroup.dyeablenetherite.netheritetools": "Verfbaar Netherieten Gereedschap",
   "itemGroup.dyeablenetherite.netheritearmor": "Verfbaar Netherieten Schild"
 }
