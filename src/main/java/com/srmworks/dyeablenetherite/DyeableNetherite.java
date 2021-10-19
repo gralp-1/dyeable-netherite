@@ -29,8 +29,7 @@ public class DyeableNetherite implements ModInitializer {
 
     @Override
     public void onInitialize() {
-        // This whole mod really needs more greg
-        // TODO: Add more greg
+
 
         // Register tools
         RegisterRedTools.register();
