@@ -24,8 +24,6 @@ public class DyeableNetherite implements ModInitializer {
             .build();
 
     public static final Settings UNIVERSAL_TOOL_SETTINGS = new Settings().fireproof().group(DyeableNetherite.TOOL_GROUP);
-    // not working
-    //public static final Settings UNIVERSAL_ARMOUR_SETTINGS = new Settings().fireproof().group(ARMOUR_GROUP);
 
 
     @Override
@@ -38,6 +36,7 @@ public class DyeableNetherite implements ModInitializer {
         RegisterGreenTools.register();
         RegisterWhiteTools.register();
         RegisterPurpleTools.register();
+        RegisterYellowTools.register();
 
 
         // Register armour
