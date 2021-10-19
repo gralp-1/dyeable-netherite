@@ -45,5 +45,6 @@ public class DyeableNetherite implements ModInitializer {
         RegisterGreenArmour.register();
         RegisterWhiteArmour.register();
         RegisterPurpleArmour.register();
+        RegisterYellowArmour.register();
     }
 }
