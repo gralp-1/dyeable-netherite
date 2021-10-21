@@ -9,7 +9,10 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
 
-
+/* NOTE: The spelling of armour is mixed. It varies between armour and armor.
+* I spell it armour but fabric doesn't
+* This will be refactored
+*/
 public class DyeableNetherite implements ModInitializer {
     public static final String MODID = "dyeablenetherite";
 
@@ -21,7 +24,8 @@ public class DyeableNetherite implements ModInitializer {
             new Identifier("dyeablenetherite", "netheritetools"))
             .icon(() -> new ItemStack(RegisterBlueTools.BLUE_NETHERITE_SWORD))
             .build();
-
+    
+    // This doesn't work with armour
     public static final Settings UNIVERSAL_TOOL_SETTINGS = new Settings().fireproof().group(DyeableNetherite.TOOL_GROUP);
 
 
@@ -48,6 +52,11 @@ public class DyeableNetherite implements ModInitializer {
         RegisterYellowArmour.register();
         RegisterOrangeArmour.register();
     }
+    
+    public static void RegisterItem(String name, Item item){
+        Registry.register(Registry.ITEM, id(name), item);
+    }
+    
     public static Identifier id(String name){
         return new Identifier(MODID, name);
     }
