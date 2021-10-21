@@ -45,7 +45,8 @@ public abstract class ArmorItemMixin {
                 material == GreenArmourMaterial.INSTANCE ||
                 material == PurpleArmourMaterial.INSTANCE ||
                 material == WhiteArmourMaterial.INSTANCE ||
-                material == YellowArmourMaterial.INSTANCE) {
+                material == YellowArmourMaterial.INSTANCE ||
+                material == OrangeArmourMaterial.INSTANCE) {
             ImmutableMultimap.Builder<EntityAttribute, EntityAttributeModifier> builder = ImmutableMultimap.builder();
 
             this.attributeModifiers.forEach(builder::put);

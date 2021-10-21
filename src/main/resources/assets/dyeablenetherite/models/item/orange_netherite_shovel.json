@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "dyeablenetherite:items/orange_netherite_shovel"
+  }
+}

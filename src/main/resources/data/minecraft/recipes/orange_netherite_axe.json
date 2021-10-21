@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:orange_dye"
+    },
+    {
+      "item": "minecraft:orange_dye"
+    },
+    {
+      "item": "minecraft:orange_dye"
+    },
+    {
+      "item": "minecraft:orange_dye"
+    },
+    {
+      "item": "minecraft:netherite_axe"
+    },
+    {
+      "item": "minecraft:orange_dye"
+    },
+    {
+      "item": "minecraft:orange_dye"
+    },
+    {
+      "item": "minecraft:orange_dye"
+    },
+    {
+      "item": "minecraft:orangeorange_dye"
+    }
+  ],
+  "result": {
+    "item": "dyeablenetherite:orange_netherite_axe",
+    "count": 1
+  }
+}

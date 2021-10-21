@@ -66,6 +66,17 @@
   "item.dyeablenetherite.yellow_netherite_boots": "§eNetherite Boots",
 
 
+  "item.dyeablenetherite.orange_netherite_hoe": "§6Netherite Hoe",
+  "item.dyeablenetherite.orange_netherite_pickaxe": "§6Netherite Pickaxe",
+  "item.dyeablenetherite.orange_netherite_axe": "§6Netherite Axe",
+  "item.dyeablenetherite.orange_netherite_sword": "§6Netherite Sword",
+  "item.dyeablenetherite.orange_netherite_shovel": "§6Netherite Shovel",
+  "item.dyeablenetherite.orange_netherite_helmet": "§6Netherite Helmet",
+  "item.dyeablenetherite.orange_netherite_chestplate": "§6Netherite Chestplate",
+  "item.dyeablenetherite.orange_netherite_leggings": "§6Netherite Leggings",
+  "item.dyeablenetherite.orange_netherite_boots": "§6Netherite Boots",
+
+
   "itemGroup.dyeablenetherite.netheritetools": "Dyeable Netherite Tools",
   "itemGroup.dyeablenetherite.netheritearmor": "Dyeable Netherite Armour"
 }
