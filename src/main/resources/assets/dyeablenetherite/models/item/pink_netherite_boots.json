@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "dyeablenetherite:items/pink_netherite_boots"
+  }
+}

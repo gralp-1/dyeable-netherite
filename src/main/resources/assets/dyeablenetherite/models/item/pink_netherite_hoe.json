@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "dyeablenetherite:items/pink_netherite_hoe"
+  }
+}
