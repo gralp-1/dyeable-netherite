@@ -34,6 +34,8 @@ public abstract class ArmorItemMixin {
     @Mutable
     private Multimap<EntityAttribute, EntityAttributeModifier> attributeModifiers;
 
+    @Shadow public abstract ArmorMaterial getMaterial();
+
     // I don't know what this is but it gives me kb resistance
     // I have no idea how this works either so I just did something and added YellowArmourMaterial somewhere
     @Inject(method = "<init>", at = @At(value = "RETURN"))
@@ -43,11 +45,12 @@ public abstract class ArmorItemMixin {
         if (material == RedArmourMaterial.INSTANCE ||
                 material == BlueArmourMaterial.INSTANCE ||
                 material == GreenArmourMaterial.INSTANCE ||
+                material == OrangeArmourMaterial.INSTANCE ||
+                material == PinkArmourMaterial.INSTANCE ||
                 material == PurpleArmourMaterial.INSTANCE ||
                 material == WhiteArmourMaterial.INSTANCE ||
                 material == YellowArmourMaterial.INSTANCE ||
-                material == OrangeArmourMaterial.INSTANCE ||
-                material == PinkArmourMaterial.INSTANCE) {
+                material == LightGrayArmourMaterial.INSTANCE) {
             ImmutableMultimap.Builder<EntityAttribute, EntityAttributeModifier> builder = ImmutableMultimap.builder();
 
             this.attributeModifiers.forEach(builder::put);

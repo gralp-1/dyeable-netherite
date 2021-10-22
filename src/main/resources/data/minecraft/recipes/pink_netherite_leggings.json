@@ -2,35 +2,35 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:yellow_dye"
+      "item": "minecraft:pink_dye"
     },
     {
-      "item": "minecraft:yellow_dye"
+      "item": "minecraft:pink_dye"
     },
     {
-      "item": "minecraft:yellow_dye"
+      "item": "minecraft:pink_dye"
     },
     {
-      "item": "minecraft:yellow_dye"
+      "item": "minecraft:pink_dye"
     },
     {
       "item": "minecraft:netherite_leggings"
     },
     {
-      "item": "minecraft:yellow_dye"
+      "item": "minecraft:pink_dye"
     },
     {
-      "item": "minecraft:yellow_dye"
+      "item": "minecraft:pink_dye"
     },
     {
-      "item": "minecraft:yellow_dye"
+      "item": "minecraft:pink_dye"
     },
     {
-      "item": "minecraft:yellow_dye"
+      "item": "minecraft:pink_dye"
     }
   ],
   "result": {
-    "item": "dyeablenetherite:yellow_netherite_leggings",
+    "item": "dyeablenetherite:pink_netherite_leggings",
     "count": 1
   }
 }
