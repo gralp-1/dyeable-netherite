@@ -15,6 +15,7 @@ import net.minecraft.util.registry.Registry;
 * I spell it armour but fabric doesn't
 * This will be refactored
 */
+
 public class DyeableNetherite implements ModInitializer {
     public static final String MODID = "dyeablenetherite";
 
