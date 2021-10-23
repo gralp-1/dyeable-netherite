@@ -42,6 +42,7 @@ public class DyeableNetherite implements ModInitializer {
         RegisterBlueTools.register();
         RegisterGreenTools.register();
         RegisterWhiteTools.register();
+        RegisterBrownTools.register();
         RegisterPurpleTools.register();
         RegisterYellowTools.register();
         RegisterOrangeTools.register();
@@ -54,6 +55,7 @@ public class DyeableNetherite implements ModInitializer {
         RegisterBlueArmour.register();
         RegisterGreenArmour.register();
         RegisterWhiteArmour.register();
+        RegisterBrownArmour.register();
         RegisterPurpleArmour.register();
         RegisterYellowArmour.register();
         RegisterOrangeArmour.register();
