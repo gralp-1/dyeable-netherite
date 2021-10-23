@@ -47,6 +47,7 @@ public class DyeableNetherite implements ModInitializer {
         RegisterYellowTools.register();
         RegisterOrangeTools.register();
         RegisterLightGrayTools.register();
+        RegisterGrayTools.register();
 
 
         // Register armour
@@ -60,6 +61,7 @@ public class DyeableNetherite implements ModInitializer {
         RegisterYellowArmour.register();
         RegisterOrangeArmour.register();
         RegisterLightGrayArmour.register();
+        RegisterGrayArmour.register();
     }
     
     public static Identifier id(String name){
