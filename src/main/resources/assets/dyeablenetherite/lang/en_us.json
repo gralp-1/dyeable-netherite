@@ -16,7 +16,7 @@
   "item.dyeablenetherite.blue_netherite_axe": "§3Netherite Axe",
   "item.dyeablenetherite.blue_netherite_sword": "§3Netherite Sword",
   "item.dyeablenetherite.blue_netherite_shovel": "§3Netherite Shovel",
-  "item.dyeablenetherite.blue_netherite_helmet": "#964B00Netherite Helmet",
+  "item.dyeablenetherite.blue_netherite_helmet": "§3Netherite Helmet",
   "item.dyeablenetherite.blue_netherite_chestplate": "§3Netherite Chestplate",
   "item.dyeablenetherite.blue_netherite_leggings": "§3Netherite Leggings",
   "item.dyeablenetherite.blue_netherite_boots": "§3Netherite Boots",
@@ -98,7 +98,6 @@
   "item.dyeablenetherite.lightgray_netherite_leggings": "§7Netherite Leggings",
   "item.dyeablenetherite.lightgray_netherite_boots": "§7Netherite Boots",
 
-<<<<<<< HEAD
   "item.dyeablenetherite.brown_netherite_hoe": "§4Netherite Hoe",
   "item.dyeablenetherite.brown_netherite_pickaxe": "§4Netherite Pickaxe",
   "item.dyeablenetherite.brown_netherite_axe": "§4Netherite Axe",
@@ -121,6 +120,17 @@
   "item.dyeablenetherite.gray_netherite_boots": "§8Netherite Boots",
 
 
+  "item.dyeablenetherite.black_netherite_hoe": "§0Netherite Hoe",
+  "item.dyeablenetherite.black_netherite_pickaxe": "§0Netherite Pickaxe",
+  "item.dyeablenetherite.black_netherite_axe": "§0Netherite Axe",
+  "item.dyeablenetherite.black_netherite_sword": "§0Netherite Sword",
+  "item.dyeablenetherite.black_netherite_shovel": "§0Netherite Shovel",
+  "item.dyeablenetherite.black_netherite_helmet": "§0Netherite Helmet",
+  "item.dyeablenetherite.black_netherite_chestplate": "§0Netherite Chestplate",
+  "item.dyeablenetherite.black_netherite_leggings": "§0Netherite Leggings",
+  "item.dyeablenetherite.black_netherite_boots": "§0Netherite Boots",
+  
+  
   "itemGroup.dyeablenetherite.netheritetools": "Dyeable Netherite Tools",
   "itemGroup.dyeablenetherite.netheritearmor": "Dyeable Netherite Armour"
 }

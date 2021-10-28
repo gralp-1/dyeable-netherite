@@ -120,6 +120,17 @@
   "item.dyeablenetherite.gray_netherite_leggings": "§7Netherieten Beenstukken",
   "item.dyeablenetherite.gray_netherite_boots": "§7Netherieten Laarzen",
 
+  
+  "item.dyeablenetherite.black_netherite_hoe": "§0Netherieten Schoffel",
+  "item.dyeablenetherite.black_netherite_pickaxe": "§0Netherieten Houweel",
+  "item.dyeablenetherite.black_netherite_axe": "§0Netherieten Bijl",
+  "item.dyeablenetherite.black_netherite_sword": "§0Netherieten Zwaard",
+  "item.dyeablenetherite.black_netherite_shovel": "§0Netherieten Schep",
+  "item.dyeablenetherite.black_netherite_helmet": "§0Netherieten Helm",
+  "item.dyeablenetherite.black_netherite_chestplate": "§0Netherieten Borstplaat",
+  "item.dyeablenetherite.black_netherite_leggings": "§0Netherieten Beenstukken",
+  "item.dyeablenetherite.black_netherite_boots": "§0Netherieten Laarzen",
+
 
   "itemGroup.dyeablenetherite.netheritetools": "Verfbaar Netherieten Gereedschap",
   "itemGroup.dyeablenetherite.netheritearmor": "Verfbaar Netherieten Schild"

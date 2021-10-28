@@ -4,6 +4,7 @@ import com.srmworks.dyeablenetherite.armour.*;
 import com.srmworks.dyeablenetherite.tools.*;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
+import net.fabricmc.fabric.api.networking.v1.S2CPlayChannelEvents;
 import net.minecraft.item.Item;
 import net.minecraft.item.Item.Settings;
 import net.minecraft.item.ItemGroup;
@@ -40,28 +41,30 @@ public class DyeableNetherite implements ModInitializer {
         RegisterRedTools.register();
         RegisterPinkTools.register();
         RegisterBlueTools.register();
+        RegisterGrayTools.register();
         RegisterGreenTools.register();
         RegisterWhiteTools.register();
         RegisterBrownTools.register();
+        RegisterBlackTools.register();
         RegisterPurpleTools.register();
         RegisterYellowTools.register();
         RegisterOrangeTools.register();
         RegisterLightGrayTools.register();
-        RegisterGrayTools.register();
 
 
         // Register armour
         RegisterRedArmour.register();
         RegisterPinkArmour.register();
         RegisterBlueArmour.register();
+        RegisterGrayArmour.register();
         RegisterGreenArmour.register();
         RegisterWhiteArmour.register();
         RegisterBrownArmour.register();
+        RegisterBlackArmour.register();
         RegisterPurpleArmour.register();
         RegisterYellowArmour.register();
         RegisterOrangeArmour.register();
         RegisterLightGrayArmour.register();
-        RegisterGrayArmour.register();
     }
     
     public static Identifier id(String name){

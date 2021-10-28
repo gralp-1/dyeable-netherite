@@ -38,6 +38,7 @@ public abstract class ArmorItemMixin {
 
     // I don't know what this is but it gives me kb resistance
     // I have no idea how this works either so I just did something and added YellowArmourMaterial somewhere
+    // Yeah
     @Inject(method = "<init>", at = @At(value = "RETURN"))
     private void constructor(ArmorMaterial material, EquipmentSlot slot, Item.Settings settings, CallbackInfo ci) {
         UUID uUID = MODIFIERS[slot.getEntitySlotId()];
@@ -52,7 +53,8 @@ public abstract class ArmorItemMixin {
                 material == YellowArmourMaterial.INSTANCE ||
                 material == LightGrayArmourMaterial.INSTANCE ||
                 material == BrownArmourMaterial.INSTANCE ||
-                material == GrayArmourMaterial.INSTANCE) {
+                material == GrayArmourMaterial.INSTANCE ||
+                material == BlackArmourMaterial.INSTANCE) {
             ImmutableMultimap.Builder<EntityAttribute, EntityAttributeModifier> builder = ImmutableMultimap.builder();
 
             this.attributeModifiers.forEach(builder::put);
