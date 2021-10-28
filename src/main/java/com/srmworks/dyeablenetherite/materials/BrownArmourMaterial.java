@@ -10,7 +10,7 @@ import net.minecraft.sound.SoundEvents;
 public class BrownArmourMaterial implements ArmorMaterial {
     public static final BrownArmourMaterial INSTANCE = new BrownArmourMaterial();
     private static final int[] BASE_DURABILITY = {481, 555, 592, 407, 0};
-    // In which A is helmet, B chestplate, C leggings and D boots.
+    // In which A is boots, B leggings, C chestplate and D helmet.
     private static final int[] PROTECTION_VALUES = {3, 6, 8, 3};
 
     @Override
