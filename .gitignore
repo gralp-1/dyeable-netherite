@@ -2,6 +2,7 @@
 
 .gradle/
 build/
+modrinth.properties
 out/
 classes/
 
