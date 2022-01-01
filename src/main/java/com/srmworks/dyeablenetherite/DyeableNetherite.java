@@ -4,21 +4,19 @@ import com.srmworks.dyeablenetherite.armour.*;
 import com.srmworks.dyeablenetherite.tools.*;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
-import net.fabricmc.fabric.api.networking.v1.S2CPlayChannelEvents;
-import net.minecraft.item.Item;
 import net.minecraft.item.Item.Settings;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
-import net.minecraft.util.registry.Registry;
 
 /* NOTE: The spelling of armour is mixed. It varies between armour and armor.
 * I spell it armour but fabric doesn't
-* This will be refactored
+* This won't be refactored, british english ftw
 */
 
 public class DyeableNetherite implements ModInitializer {
     public static final String MODID = "dyeablenetherite";
+
 
     public static final ItemGroup ARMOUR_GROUP = FabricItemGroupBuilder.create(
             new Identifier("dyeablenetherite", "netheritearmor"))

@@ -1,0 +1,137 @@
+{
+
+  "item.dyeablenetherite.red_netherite_hoe": "§cNetherieten Schoffel",
+  "item.dyeablenetherite.red_netherite_pickaxe": "§cNetherieten Houweel",
+  "item.dyeablenetherite.red_netherite_axe": "§cNetherieten Bijl",
+  "item.dyeablenetherite.red_netherite_sword": "§cNetherieten Zwaard",
+  "item.dyeablenetherite.red_netherite_shovel": "§cNetherieten Schep",
+  "item.dyeablenetherite.red_netherite_helmet": "§cNetherieten Helm",
+  "item.dyeablenetherite.red_netherite_chestplate": "§cNetherieten Borstplaat",
+  "item.dyeablenetherite.red_netherite_leggings": "§cNetherieten Beenstukken",
+  "item.dyeablenetherite.red_netherite_boots": "§cNetherieten Laarzen",
+
+
+  "item.dyeablenetherite.blue_netherite_hoe": "§3Netherieten Schoffel",
+  "item.dyeablenetherite.blue_netherite_pickaxe": "§3Netherieten Houweel",
+  "item.dyeablenetherite.blue_netherite_axe": "§3Netherieten Bijl",
+  "item.dyeablenetherite.blue_netherite_sword": "§3Netherieten Zwaard",
+  "item.dyeablenetherite.blue_netherite_shovel": "§3Netherieten Schep",
+  "item.dyeablenetherite.blue_netherite_helmet": "§3Netherieten Helm",
+  "item.dyeablenetherite.blue_netherite_chestplate": "§3Netherieten Borstplaat",
+  "item.dyeablenetherite.blue_netherite_leggings": "§3Netherieten Beenstukken",
+  "item.dyeablenetherite.blue_netherite_boots": "§3Netherieten Laarzen",
+
+
+  "item.dyeablenetherite.green_netherite_hoe": "§aNetherieten Schoffel",
+  "item.dyeablenetherite.green_netherite_pickaxe": "§aNetherieten Houweel",
+  "item.dyeablenetherite.green_netherite_axe": "§aNetherieten Bijl",
+  "item.dyeablenetherite.green_netherite_sword": "§aNetherieten Zwaard",
+  "item.dyeablenetherite.green_netherite_shovel": "§aNetherieten Schep",
+  "item.dyeablenetherite.green_netherite_helmet": "§aNetherieten Helm",
+  "item.dyeablenetherite.green_netherite_chestplate": "§aNetherieten Borstplaat",
+  "item.dyeablenetherite.green_netherite_leggings": "§aNetherieten Beenstukken",
+  "item.dyeablenetherite.green_netherite_boots": "§aNetherieten Laarzen",
+
+
+  "item.dyeablenetherite.purple_netherite_hoe": "§5Netherieten Schoffel",
+  "item.dyeablenetherite.purple_netherite_pickaxe": "§5Netherieten Houweel",
+  "item.dyeablenetherite.purple_netherite_axe": "§5Netherieten Bijl",
+  "item.dyeablenetherite.purple_netherite_sword": "§5Netherieten Zwaard",
+  "item.dyeablenetherite.purple_netherite_shovel": "§5Netherieten Schep",
+  "item.dyeablenetherite.purple_netherite_helmet": "§5Netherieten Helm",
+  "item.dyeablenetherite.purple_netherite_chestplate": "§5Netherieten Borstplaat",
+  "item.dyeablenetherite.purple_netherite_leggings": "§5Netherieten Beenstukken",
+  "item.dyeablenetherite.purple_netherite_boots": "§5Netherieten Laarzen",
+
+
+  "item.dyeablenetherite.white_netherite_hoe": "Netherieten Schoffel",
+  "item.dyeablenetherite.white_netherite_pickaxe": "Netherieten Houweel",
+  "item.dyeablenetherite.white_netherite_axe": "Netherieten Bijl",
+  "item.dyeablenetherite.white_netherite_sword": "Netherieten Zwaard",
+  "item.dyeablenetherite.white_netherite_shovel": "Netherieten Schep",
+  "item.dyeablenetherite.white_netherite_helmet": "Netherieten Helm",
+  "item.dyeablenetherite.white_netherite_chestplate": "Netherieten Borstplaat",
+  "item.dyeablenetherite.white_netherite_leggings": "Netherieten Beenstukken",
+  "item.dyeablenetherite.white_netherite_boots": "Netherieten Laarzen",
+
+
+  "item.dyeablenetherite.yellow_netherite_hoe": "§eNetherieten Schoffel",
+  "item.dyeablenetherite.yellow_netherite_pickaxe": "§eNetherieten Houweel",
+  "item.dyeablenetherite.yellow_netherite_axe": "§eNetherieten Bijl",
+  "item.dyeablenetherite.yellow_netherite_sword": "§eNetherieten Zwaard",
+  "item.dyeablenetherite.yellow_netherite_shovel": "§eNetherieten Schep",
+  "item.dyeablenetherite.yellow_netherite_helmet": "§eNetherieten Helm",
+  "item.dyeablenetherite.yellow_netherite_chestplate": "§eNetherieten Borstplaat",
+  "item.dyeablenetherite.yellow_netherite_leggings": "§eNetherieten Beenstukken",
+  "item.dyeablenetherite.yellow_netherite_boots": "§eNetherieten Laarzen",
+
+
+  "item.dyeablenetherite.orange_netherite_hoe": "§6Netherieten Schoffel",
+  "item.dyeablenetherite.orange_netherite_pickaxe": "§6Netherieten Houweel",
+  "item.dyeablenetherite.orange_netherite_axe": "§6Netherieten Bijl",
+  "item.dyeablenetherite.orange_netherite_sword": "§6Netherieten Zwaard",
+  "item.dyeablenetherite.orange_netherite_shovel": "§6Netherieten Schep",
+  "item.dyeablenetherite.orange_netherite_helmet": "§6Netherieten Helm",
+  "item.dyeablenetherite.orange_netherite_chestplate": "§6Netherieten Borstplaat",
+  "item.dyeablenetherite.orange_netherite_leggings": "§6Netherieten Beenstukken",
+  "item.dyeablenetherite.orange_netherite_boots": "§6Netherieten Laarzen",
+  
+  
+  "item.dyeablenetherite.pink_netherite_hoe": "§dNetherieten Schoffel",
+  "item.dyeablenetherite.pink_netherite_pickaxe": "§dNetherieten Houweel",
+  "item.dyeablenetherite.pink_netherite_axe": "§dNetherieten Bijl",
+  "item.dyeablenetherite.pink_netherite_sword": "§dNetherieten Zwaard",
+  "item.dyeablenetherite.pink_netherite_shovel": "§dNetherieten Schep",
+  "item.dyeablenetherite.pink_netherite_helmet": "§dNetherieten Helm",
+  "item.dyeablenetherite.pink_netherite_chestplate": "§dNetherieten Borstplaat",
+  "item.dyeablenetherite.pink_netherite_leggings": "§dNetherieten Beenstukken",
+  "item.dyeablenetherite.pink_netherite_boots": "§dNetherieten Laarzen",
+
+
+  "item.dyeablenetherite.lightgray_netherite_hoe": "§7Netherieten Schoffel",
+  "item.dyeablenetherite.lightgray_netherite_pickaxe": "§7Netherieten Houweel",
+  "item.dyeablenetherite.lightgray_netherite_axe": "§7Netherieten Bijl",
+  "item.dyeablenetherite.lightgray_netherite_sword": "§7Netherieten Zwaard",
+  "item.dyeablenetherite.lightgray_netherite_shovel": "§7Netherieten Schep",
+  "item.dyeablenetherite.lightgray_netherite_helmet": "§7Netherieten Helm",
+  "item.dyeablenetherite.lightgray_netherite_chestplate": "§7Netherieten Borstplaat",
+  "item.dyeablenetherite.lightgray_netherite_leggings": "§7Netherieten Beenstukken",
+  "item.dyeablenetherite.lightgray_netherite_boots": "§7Netherieten Laarzen",
+
+
+  "item.dyeablenetherite.brown_netherite_hoe": "§4Netherieten Schoffel",
+  "item.dyeablenetherite.brown_netherite_pickaxe": "§4Netherieten Houweel",
+  "item.dyeablenetherite.brown_netherite_axe": "§4Netherieten Bijl",
+  "item.dyeablenetherite.brown_netherite_sword": "§4Netherieten Zwaard",
+  "item.dyeablenetherite.brown_netherite_shovel": "§4Netherieten Schep",
+  "item.dyeablenetherite.brown_netherite_helmet": "§4Netherieten Helm",
+  "item.dyeablenetherite.brown_netherite_chestplate": "§4Netherieten Borstplaat",
+  "item.dyeablenetherite.brown_netherite_leggings": "§4Netherieten Beenstukken",
+  "item.dyeablenetherite.brown_netherite_boots": "§4Netherieten Laarzen",
+  
+  
+  "item.dyeablenetherite.gray_netherite_hoe": "§7Netherieten Schoffel",
+  "item.dyeablenetherite.gray_netherite_pickaxe": "§7Netherieten Houweel",
+  "item.dyeablenetherite.gray_netherite_axe": "§7Netherieten Bijl",
+  "item.dyeablenetherite.gray_netherite_sword": "§7Netherieten Zwaard",
+  "item.dyeablenetherite.gray_netherite_shovel": "§7Netherieten Schep",
+  "item.dyeablenetherite.gray_netherite_helmet": "§7Netherieten Helm",
+  "item.dyeablenetherite.gray_netherite_chestplate": "§7Netherieten Borstplaat",
+  "item.dyeablenetherite.gray_netherite_leggings": "§7Netherieten Beenstukken",
+  "item.dyeablenetherite.gray_netherite_boots": "§7Netherieten Laarzen",
+
+  
+  "item.dyeablenetherite.black_netherite_hoe": "§0Netherieten Schoffel",
+  "item.dyeablenetherite.black_netherite_pickaxe": "§0Netherieten Houweel",
+  "item.dyeablenetherite.black_netherite_axe": "§0Netherieten Bijl",
+  "item.dyeablenetherite.black_netherite_sword": "§0Netherieten Zwaard",
+  "item.dyeablenetherite.black_netherite_shovel": "§0Netherieten Schep",
+  "item.dyeablenetherite.black_netherite_helmet": "§0Netherieten Helm",
+  "item.dyeablenetherite.black_netherite_chestplate": "§0Netherieten Borstplaat",
+  "item.dyeablenetherite.black_netherite_leggings": "§0Netherieten Beenstukken",
+  "item.dyeablenetherite.black_netherite_boots": "§0Netherieten Laarzen",
+
+
+  "itemGroup.dyeablenetherite.netheritetools": "Verfbaar Netherieten Gereedschap",
+  "itemGroup.dyeablenetherite.netheritearmor": "Verfbaar Netherieten Schild"
+}
